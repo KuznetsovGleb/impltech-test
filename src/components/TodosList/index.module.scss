@@ -1,0 +1,15 @@
+@import "../../styles/palette";
+
+.list {
+  height: 500px;
+  width: 30%;
+  padding: 12px 8px;
+
+  background-color: $paletteColor6;
+  border-radius: 8px;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
